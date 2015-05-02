@@ -37,6 +37,7 @@
 		                        <th>Data de Lançamento</th>
 		                        <th>Data de Vencimento</th>
 		                        <th>Código Promissoria</th>
+		                        <th>Ações</th>
 		                    </tr>
 		                 </thead>
 		                <tbody>
@@ -46,6 +47,7 @@
 	                            <td>".$promissoria["lancamento"]."</td>
 	                            <td>".$promissoria["vencimento"]."</td>
 	                            <td>".$promissoria["codigoPromissoria"]."</td>
+	                            <td><p style='text-align: center;'><a href='actionPromissorias.php'><img src='img/check.png' alt=''></a><a href='actionPromissorias.php'><img src='img/cancel.png' alt=''></a><p></td>
 	                        </tr>
 	                    </tbody>
 	                    <tfoot>
@@ -55,6 +57,7 @@
 	                            <th>Data de Lançamento</th>
 	                            <th>Data de Vencimento</th>
 	                            <th>Código Promissoria</th>
+	                            <th>Ações</th>
 	                        </tr>
 	                    </tfoot>
                     </table>";
@@ -96,6 +99,7 @@
 		                        <th>Data de Lançamento</th>
 		                        <th>Data de Vencimento</th>
 		                        <th>Código Promissoria</th>
+		                        <th>Ações</th>
 		                    </tr>
 		                 </thead>
 		                <tbody>";
@@ -107,6 +111,7 @@
 	                            <td>".$promissoria["lancamento"]."</td>
 	                            <td>".$promissoria["vencimento"]."</td>
 	                            <td>".$promissoria["codigoPromissoria"]."</td>
+	                            <td><p style='text-align: center;'><a href='actionPromissorias.php'><img src='img/check.png' alt=''></a><a href='actionPromissorias.php'><img src='img/cancel.png' alt=''></a><p></td>
 	                    </tr>";
 		}
 
@@ -118,6 +123,7 @@
 	                            <th>Data de Lançamento</th>
 	                            <th>Data de Vencimento</th>
 	                            <th>Código Promissoria</th>
+	                            <th>Ações</th>
 	                        </tr>
 	                    </tfoot>
                     </table>";
